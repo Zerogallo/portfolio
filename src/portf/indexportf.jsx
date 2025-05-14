@@ -1,5 +1,5 @@
 import { GoCodeReview } from "react-icons/go";
-import Header from "../header/indexHeader";
+
 import styles from "./stylesportf.module.css";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import {
@@ -18,7 +18,6 @@ import { GrDocumentPdf } from "react-icons/gr";
 export default function Protf() {
   return (
     <>
-      <Header />
       <div className={styles.contener}>
         <div className={styles.pref} id="up">
           <span className={styles.anime}>
@@ -69,33 +68,6 @@ export default function Protf() {
               </button>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className={styles.corric} id="meio">
-        <div className={styles.caixaCatao}>
-          <img src="/public/fotodopref.jpg" alt="img" />
-
-          <p className={styles.caixaNome}>Renan ferreira </p>
-          <p className={styles.caixaCart}>Desenvolvedor Front-end</p>
-          <p>renan.genesisgt724532@gmail.com</p>
-          <div className={styles.caixaButt}>
-            <button>
-              <FaLinkedin />
-            </button>
-
-            <button>
-              <FaGithub />
-            </button>
-          </div>
-        </div>
-        <div className={styles.caixaCorr}>
-          <div className={styles.caixaDow}>
-            <h1>
-              <GrDocumentPdf /> Currículo
-            </h1>
-          </div>
-          <div className={styles.caixaPDF}></div>
         </div>
       </div>
     </>
