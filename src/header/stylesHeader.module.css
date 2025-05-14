@@ -1,0 +1,27 @@
+.header {
+  background-color: rgb(99, 97, 97);
+
+  width: auto;
+  height: 50px;
+}
+.caixaNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding: 20px;
+}
+.caixaNav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.caixaNav a:hover {
+  color: blue;
+  background-color: #f0f0f0;
+  text-decoration: underline;
+}
