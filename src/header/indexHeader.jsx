@@ -6,15 +6,15 @@ export default function Header() {
     <>
       <div className={styles.header}>
         <div className={styles.caixaNav}>
-          <a href="#" di="up">
+          <a href="#" id="up">
             <TfiComments />
             Pref
           </a>
-          <a href="#" di="meio">
+          <a href="#" id="meio">
             <TfiEnvelope />
             Currícula
           </a>
-          <a href="#" di="down">
+          <a href="#" id="down">
             <TfiDirectionAlt />
             Projeto
           </a>

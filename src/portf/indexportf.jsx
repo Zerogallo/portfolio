@@ -20,7 +20,7 @@ export default function Protf() {
     <>
       <Header />
       <div className={styles.contener}>
-        <div className={styles.pref} di="up">
+        <div className={styles.pref} id="up">
           <span className={styles.anime}>
             <GoCodeReview />
           </span>
@@ -72,7 +72,7 @@ export default function Protf() {
         </div>
       </div>
 
-      <div className={styles.corric}>
+      <div className={styles.corric} id="meio">
         <div className={styles.caixaCatao}>
           <img src="/public/fotodopref.jpg" alt="img" />
 
