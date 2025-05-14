@@ -13,13 +13,14 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
+import { GrDocumentPdf } from "react-icons/gr";
 
 export default function Protf() {
   return (
     <>
       <Header />
       <div className={styles.contener}>
-        <div className={styles.pref}>
+        <div className={styles.pref} di="up">
           <span className={styles.anime}>
             <GoCodeReview />
           </span>
@@ -68,6 +69,33 @@ export default function Protf() {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className={styles.corric}>
+        <div className={styles.caixaCatao}>
+          <img src="/public/fotodopref.jpg" alt="img" />
+
+          <p className={styles.caixaNome}>Renan ferreira </p>
+          <p className={styles.caixaCart}>Desenvolvedor Front-end</p>
+          <p>renan.genesisgt724532@gmail.com</p>
+          <div className={styles.caixaButt}>
+            <button>
+              <FaLinkedin />
+            </button>
+
+            <button>
+              <FaGithub />
+            </button>
+          </div>
+        </div>
+        <div className={styles.caixaCorr}>
+          <div className={styles.caixaDow}>
+            <h1>
+              <GrDocumentPdf /> Currículo
+            </h1>
+          </div>
+          <div className={styles.caixaPDF}></div>
         </div>
       </div>
     </>
