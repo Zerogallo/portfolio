@@ -1,9 +1,9 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import styles from "./stylesCurriculo.module.css";
+import styles from "./stylesContatos.module.css";
 
 import { GrDocumentPdf } from "react-icons/gr";
 
-export default function Curriculo() {
+export default function Contatos() {
   return (
     <>
       <div className={styles.corric}>

@@ -1,8 +1,7 @@
 .header {
   background-color: rgb(99, 97, 97);
-
-  width: auto;
-  height: 50px;
+  max-width: auto;
+  margin: auto;
 }
 .caixaNav {
   display: flex;
@@ -11,17 +10,17 @@
   gap: 200px;
   padding: 20px;
 }
-.caixaNav a {
-  text-decoration: none;
-  color: white;
+.caixaNav button {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+
   cursor: pointer;
   font-weight: bold;
-  padding: 2px 4px;
-  border-radius: 3px;
+
   transition: all 0.3s ease;
 }
-.caixaNav a:hover {
-  color: blue;
-  background-color: #f0f0f0;
-  text-decoration: underline;
+.caixaNav button:hover {
+  color: #ccc;
+  background-color: #111;
 }
