@@ -15,11 +15,11 @@
 .anime {
   font-size: 200px;
   position: absolute;
-  bottom: 20px;
-  left: 450px;
-  top: 25px;
+
+  left: 400px;
+  top: 50px;
   background-color: rgba(0, 0, 0, 0);
-  padding: 10px 15px;
+
   border-radius: 5px;
   color: white;
 }
@@ -79,7 +79,7 @@
   font-weight: bold;
 }
 
-.bot button {
+.bot a {
   display: inline-block;
   padding: 10px 20px;
   font-size: 26px;
@@ -92,7 +92,7 @@
   transition: all 0.3s ease;
   background-color: #3498db;
   color: white;
-  margin: 20px;
+  margin: auto;
 }
 .listIcon {
   font-size: 40px;

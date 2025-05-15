@@ -1,9 +1,10 @@
-import { TfiComments, TfiDirectionAlt, TfiEnvelope } from "react-icons/tfi";
+import { TfiComments, TfiDirectionAlt } from "react-icons/tfi";
 import styles from "./stylesHeader.module.css";
 import { useState } from "react";
 import Protf from "../portf/indexportf";
 import Projeto from "../Projeto/indexProjeto";
 import Contatos from "../contatos/indexContatos";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Header() {
   const [activaTab, setActivaTab] = useState("Tab 1");
@@ -46,7 +47,7 @@ export default function Header() {
             className={activaTab === "Tab 3" ? "active" : ""}
             onClick={() => hendleChangeTab("Tab 3")}
           >
-            <TfiEnvelope />
+            <FaWhatsapp />
             Contatos
           </button>
         </div>

@@ -13,7 +13,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
-import { GrDocumentPdf } from "react-icons/gr";
+import image from "../imag/fotodopref.jpg";
 
 export default function Protf() {
   return (
@@ -24,7 +24,7 @@ export default function Protf() {
             <GoCodeReview />
           </span>
 
-          <img src="/public/fotodopref.jpg" alt="img" />
+          <img src={image} alt="img" />
           <span className={styles.anime2}>
             <VscVscodeInsiders />
           </span>
@@ -58,13 +58,17 @@ export default function Protf() {
             </div>
             <div className={styles.bot}>
               <button>
-                <FaLinkedin />
-                Linkedin
+                <a href="https://www.linkedin.com/in/renan-ferreira-44b944311/">
+                  <FaLinkedin />
+                  Linkedin
+                </a>
               </button>
 
               <button>
-                <FaGithub />
-                Github
+                <a href="https://github.com/Zerogallo">
+                  <FaGithub />
+                  Github
+                </a>
               </button>
             </div>
           </div>
