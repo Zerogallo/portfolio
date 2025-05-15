@@ -78,9 +78,9 @@
   text-align: center;
   font-weight: bold;
 }
-.bat button {
-  margin: auto;
-  border-radius: 5px;
+.bot {
+  display: flex;
+  align-items: center;
   gap: 25px;
 }
 .bot a {

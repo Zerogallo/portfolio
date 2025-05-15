@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: space-around;
   background: url("/public/fundo1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .caixaCatao {
   display: flex;
@@ -29,7 +33,21 @@
   font-weight: bold;
   font-size: 20px;
 }
-.caixaButt button {
+.iconEmail {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.iconEmail a {
+  font-size: 25px;
+}
+.caixaButt {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.caixaButt a {
   display: inline-block;
   padding: 10px 20px;
   font-size: 26px;
@@ -42,7 +60,6 @@
   transition: all 0.3s ease;
   background-color: #3498db;
   color: white;
-  margin: 20px;
 }
 .caixaCorr {
   width: 800px;

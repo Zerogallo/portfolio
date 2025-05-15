@@ -1,33 +1,42 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "./stylesContatos.module.css";
-
-import { GrDocumentPdf } from "react-icons/gr";
+import image from "../imag/fotodopref.jpg";
+import { TfiEmail } from "react-icons/tfi";
 
 export default function Contatos() {
   return (
     <>
       <div className={styles.corric}>
         <div className={styles.caixaCatao}>
-          <img src="/public/fotodopref.jpg" alt="img" />
+          <img src={image} alt="img" />
 
           <p className={styles.caixaNome}>Renan ferreira </p>
           <p className={styles.caixaCart}>Desenvolvedor Front-end</p>
-          <p>renan.genesisgt724532@gmail.com</p>
+          <p className={styles.iconEmail}>
+            <a href="#">
+              <TfiEmail />
+            </a>
+            renan.genesisgt724532@gmail.com
+          </p>
           <div className={styles.caixaButt}>
             <button>
-              <FaLinkedin />
+              <a href="https://www.linkedin.com/in/renan-ferreira-44b944311/">
+                <FaLinkedin />
+              </a>
             </button>
 
             <button>
-              <FaGithub />
+              <a href="https://github.com/Zerogallo">
+                <FaGithub />
+              </a>
             </button>
           </div>
         </div>
         <div className={styles.caixaCorr}>
           <div className={styles.caixaDow}>
-            <h1>
-              <GrDocumentPdf /> Currículo
-            </h1>
+            <div>
+              <a href="#"></a>
+            </div>
           </div>
           <div className={styles.caixaPDF}></div>
         </div>
