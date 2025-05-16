@@ -1,6 +1,8 @@
 import { BiLogoMicrosoftTeams } from "react-icons/bi";
 import styles from "./stylesCardCT.module.css";
 import { GiCheckMark } from "react-icons/gi";
+import { IoLogoPython } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
 
 export default function CardCT() {
   return (
@@ -9,6 +11,8 @@ export default function CardCT() {
         <button>
           <BiLogoMicrosoftTeams />
         </button>
+        <IoLogoPython />
+        <FaReact />
 
         <div className={styles.cardCT}>
           <div className={styles.caixaMC}>

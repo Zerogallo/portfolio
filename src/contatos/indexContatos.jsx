@@ -7,7 +7,7 @@ import {
 import styles from "./stylesContatos.module.css";
 import image from "../imag/fotodopref.jpg";
 import { TfiEmail } from "react-icons/tfi";
-import CardCT from "../cardContato/indexCardCT";
+import CardCT from "../cardContato/cardMicrosoft/indexCardCT";
 
 export default function Contatos() {
   return (
