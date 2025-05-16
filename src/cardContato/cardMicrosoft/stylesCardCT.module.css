@@ -1,21 +1,7 @@
-.tabCard button {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  font-size: 30px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-.tabCard button:hover {
-  color: #ccc;
-  background-color: #111;
-}
-
 .cardCT {
   background-size: cover;
   background-image: url("/public/microsoft.png");
-  width: 600px;
+  width: 850px;
   height: 500px;
   border-radius: 10px;
   display: flex;
@@ -24,9 +10,10 @@
 .caixaMC {
   margin: 50px;
   border-radius: 10px;
-
+  background-color: rgb(249, 250, 252, 0.5);
   position: relative;
-  top: 140px;
+  top: 120px;
+  left: 300px;
 }
 .microCheck {
   font-size: 25px;

@@ -1,0 +1,25 @@
+.caixaCD {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+
+  gap: 10px;
+}
+
+.card button {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.card button:hover {
+  color: #ccc;
+  background-color: #111;
+}

@@ -59,28 +59,12 @@
   color: white;
 }
 .caixaCorr {
-  width: 800px;
-  height: 650px;
-  margin: 40px 25px;
+  width: 900px;
+  height: 600px;
+
   border-radius: 10px;
   background-color: rgba(159, 163, 163, 0.5);
-}
-.caixaDow {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 800px;
-  height: 700px;
-}
-
-.apreseta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.arrowLeft {
-  font-size: 100px;
-}
-.arrowRight {
-  font-size: 100px;
 }
