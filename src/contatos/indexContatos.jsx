@@ -51,7 +51,6 @@ export default function Contatos() {
               </div>
             </div>
           </div>
-          <div className={styles.caixaPDF}></div>
         </div>
       </div>
     </>

@@ -4,9 +4,6 @@
   justify-content: space-around;
   background: url("/public/fundo1.webp");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .caixaCatao {
   display: flex;
@@ -72,8 +69,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 700px;
-  height: 600px;
+  min-width: 800px;
+  height: 700px;
 }
 
 .apreseta {
