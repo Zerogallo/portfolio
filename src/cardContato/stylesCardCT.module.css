@@ -1,0 +1,9 @@
+.cardCT {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: url("/public/microsoft.png") rgb(0, 0, 0, 0.2);
+  min-width: 600px;
+  height: 500px;
+}

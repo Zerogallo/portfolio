@@ -1,7 +1,13 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaRegArrowAltCircleLeft,
+  FaRegArrowAltCircleRight,
+} from "react-icons/fa";
 import styles from "./stylesContatos.module.css";
 import image from "../imag/fotodopref.jpg";
 import { TfiEmail } from "react-icons/tfi";
+import CardCT from "../cardContato/indexCardCT";
 
 export default function Contatos() {
   return (
@@ -34,8 +40,15 @@ export default function Contatos() {
         </div>
         <div className={styles.caixaCorr}>
           <div className={styles.caixaDow}>
-            <div>
-              <a href="#"></a>
+            <div className={styles.apreseta}>
+              <div className={styles.arrowLeft}>
+                <FaRegArrowAltCircleLeft />
+              </div>
+
+              <CardCT />
+              <div className={styles.arrowRight}>
+                <FaRegArrowAltCircleRight />
+              </div>
             </div>
           </div>
           <div className={styles.caixaPDF}></div>
