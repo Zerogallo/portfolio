@@ -1,0 +1,25 @@
+.tabRT {
+  background-size: cover;
+  background-image: url("/public/Programacion-con-React.jpg");
+  width: 850px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.cardRT {
+  margin: 50px;
+  border-radius: 10px;
+  background-color: rgb(249, 250, 252, 0.5);
+  position: relative;
+  top: 50px;
+  left: 590px;
+}
+.react {
+  font-size: 25px;
+  font-weight: bold;
+}
+.react i {
+  color: green;
+  font-size: 50px;
+}

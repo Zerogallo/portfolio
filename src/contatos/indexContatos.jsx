@@ -1,8 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styles from "./stylesContatos.module.css";
-import image from "../imag/fotodopref.jpg";
+import image from "../imag/contato.jpg";
 import { TfiEmail } from "react-icons/tfi";
-import CardCT from "../cardContato/cardMicrosoft/indexCardCT";
+
 import Card from "../cardContato/cardNav/indexcard";
 
 export default function Contatos() {

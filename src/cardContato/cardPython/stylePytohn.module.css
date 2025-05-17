@@ -1,0 +1,25 @@
+.tabPT {
+  background-size: cover;
+  background-image: url("/public/Python.webp");
+  width: 850px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.cardPT {
+  margin: 50px;
+  border-radius: 10px;
+  background-color: rgb(249, 250, 252, 0.5);
+  position: relative;
+  top: 50px;
+  left: 350px;
+}
+.python {
+  font-size: 25px;
+  font-weight: bold;
+}
+.python i {
+  color: green;
+  font-size: 50px;
+}

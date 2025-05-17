@@ -5,6 +5,7 @@ import { FaReact } from "react-icons/fa";
 import CardCT from "../cardMicrosoft/indexCardCT";
 import Python from "../cardPython/indexPuthon";
 import { useState } from "react";
+import React from "../cardReact/indexReact";
 
 export default function Card() {
   const [activacard, setActivacard] = useState("Tab 1");
