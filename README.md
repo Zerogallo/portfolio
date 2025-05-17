@@ -1,15 +1,40 @@
-# React + Vite
+# 🚀 Renan (ZeroGallo) | Desenvolvedor Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Estudante de Ciência da Computação* apaixonado por criar interfaces dinâmicas e acessíveis. Buscando oportunidades para contribuir com projetos inovadores em desenvolvimento web.
 
-Currently, two official plugins are available:
+## 📌 Contato
+- *E-mail*: renan.zeroallo@gmail.com  
+- *WhatsApp*: (21) 97274-5455  
+- *LinkedIn: [Seu perfil](https://www.linkedin.com/in/renan-ferreira-44b944311/)
+- *GitHub*: [@Zerogallo](https://github.com/Zerogallo)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+<a href="https://github.com/Zerogallo" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
 
-## Expanding the ESLint configuration
+<a href="https://www.linkedin.com/in/renan-ferreira-44b944311/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>  
+</div> 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Habilidades Técnicas
+- *Linguagens*: JavaScript, HTML5, CSS3  
+- *Frameworks/Bibliotecas: React *(ou outros que você use)  
+- *Ferramentas: Git, GitHub, Figma *(se aplicável)  
+- *Metodologias*: Responsive Design, Clean Code
+
+    <div align="center">  
+
+  <img src="https://skillicons.dev/icons?i=vite,react,git,css,html,js,ts,mongo,nodejs,npm" />
+<
+
+## 💻 Projetos Destacados
+ *Portfólio Pessoal*  
+   - Descrição: Site pessoal responsivo com projetos e informações de contato.  
+   - Tecnologias: HTML, CSS, JavaScript  
+   - Link: [Acessar Projeto](https://zerogallo.github.io/portfolio/) 
+
+---
 
 
-# https://zerogallo.github.io/portfolio/
