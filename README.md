@@ -27,7 +27,7 @@
     <div align="center">  
 
   <img src="https://skillicons.dev/icons?i=vite,react,git,css,html,js,ts,mongo,nodejs,npm" />
-<
+</div>
 
 ## 💻 Projetos Destacados
  *Portfólio Pessoal*  
