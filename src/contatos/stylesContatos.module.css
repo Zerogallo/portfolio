@@ -68,3 +68,26 @@
   align-items: center;
   justify-content: center;
 }
+/* Estilos para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .corric {
+    flex-direction: column;
+  }
+  .caixaCatao img {
+    height: auto;
+    max-width: 100%;
+    padding-inline: 2.5ren;
+  }
+}
+
+/* Estilos para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .corric {
+    flex-direction: column;
+  }
+  .caixaCatao img {
+    height: auto;
+    max-width: 100%;
+    padding-inline: 2.5ren;
+  }
+}

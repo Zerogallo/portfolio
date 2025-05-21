@@ -24,3 +24,34 @@
   color: #ccc;
   background-color: #111;
 }
+/* Estilos para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .pref {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pref img {
+    height: 250px;
+    max-width: 250px;
+  }
+  .anime {
+    font-size: 100px;
+  }
+  .anime2 {
+    font-size: 100px;
+  }
+}
+
+/* Estilos para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .pref {
+    flex-direction: column;
+  }
+  .pref img {
+    height: auto;
+    max-width: 100%;
+    padding-inline: 2.5ren;
+  }
+}
